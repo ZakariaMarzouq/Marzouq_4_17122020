@@ -51,10 +51,10 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a href="#expertise">Notre expertise</a>
 					</li>
 					<li>
-						<a href="#">Notre Expertise</a>
+						<a href="#portfolio">Nos réalisations</a>
 					</li>
 					<li>
 						<a href="page2.html">Nous contacter</a>
@@ -73,7 +73,7 @@
 			<div class="col-sm-12">
 				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="La chouette agence, agence web Lyonnaise, création logo lyon" />
 				<h1 class="text-center hero-bloc-text tc-white ">
-					La Chouette Agence Lyonnaise !
+					La Chouette Agence
 				</h1>
 				<div class="text-center">
 					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
@@ -92,7 +92,8 @@
 				<!-- Mauvaise pratique d'intégration de texte en image - Impact SEO - Vitesse du site
 					<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
 				-->
-				<p>La Chouette Agence est une agence lyonnaise de Web design qui aide les entreprise à devenir attractives et visibles sur Internet.</p>
+				<div id="expertise"><h2>Notre Expertise Digitale</h2></div>
+				<p>La Chouette Agence est une entreprise basée à Lyon spécialisée dans le web design qui aide les entreprises à devenir attractives et visibles sur Internet.</p>
 			</div>
 		</div>
 		<div class="row voffset-lg med-width-whitespace">
@@ -168,13 +169,13 @@
 			<!-- Mauvaise pratique d'intégration de texte en image - Impact SEO - Vitesse du site
 				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title2.png" />
 			-->
-			<h2>Nous travaillons avec beaucoup de clients,<br> voici nos réalisations.</h2>
+			<div id="portfolio"><h2>Nous travaillons avec beaucoup de clients,<br> voici nos réalisations.</h2></div>
 				
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="création de site internet refonte site web Entreprise webdesign Lyon" class="img-responsive portfolio-thumb" /></a>
+				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="création de site internet et refonte site web Entreprise webdesign Lyon" class="img-responsive portfolio-thumb" /></a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
@@ -229,6 +230,52 @@
 		</div>
 	</div>
 </div>
+<div class="bloc bgc-white l-bloc" id="bloc-7">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6">
+				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+					<div class="form-group">
+						<label>
+							Nom
+						</label>
+						<input id="name" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label>
+							Adresse email
+						</label>
+						<input id="email" class="form-control" type="email" required />
+					</div>
+					<div class="form-group">
+						<label>
+							Comment nous avez-vous connu ?
+						</label>
+						<input class="form-control" type="email" required id="input_504" />
+					</div>
+					<div class="form-group">
+						<label>
+							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+					</div> 
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+						Envoyer
+					</button>
+				</form>
+			</div>
+			<div class="col-sm-6">
+				<p>
+					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-cta 5 END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
 <!-- bloc-5-cta END -->
 
 <!-- Footer - bloc-8 -->
