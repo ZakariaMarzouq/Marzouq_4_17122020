@@ -33,7 +33,8 @@ a:hover {
 }
 
 .tc-orange-2 {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    font-size: 1.8rem;
 }
 
 /* FIN MODIFICATION */
@@ -65,7 +66,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 35px 50px;
 }
 
 .bloc-md {
@@ -722,6 +723,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
 }
 
 h2 {
@@ -784,6 +788,8 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .bgc-dark-slate-blue {
