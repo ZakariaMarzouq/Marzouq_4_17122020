@@ -722,11 +722,12 @@ p {
 }
 
 .social {
-    margin: auto auto auto auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px 0px;
+    font-size: 2rem;
+
 }
 
 h2 {
@@ -865,6 +866,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .social {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -873,6 +877,9 @@ h4 {
     }
     .nav-center.navbar .nav {
         max-width: 100%
+    }
+    .social {
+        font-size: 1.5rem;
     }
 }
 
@@ -1054,7 +1061,11 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .social {
+        font-size: 1.5rem;
+    }
 }
+
 
 @media (max-width: 400px) {
     .bloc {
