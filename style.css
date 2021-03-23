@@ -155,7 +155,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 0.959);
 }
 
 .d-bloc .a-btn:hover,
@@ -727,7 +727,6 @@ p {
     justify-content: space-around;
     padding: 10px 0px;
     font-size: 2rem;
-    color: #FFFFFF;
 }
 
 h2 {
