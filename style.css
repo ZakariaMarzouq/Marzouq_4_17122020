@@ -18,6 +18,26 @@ a:hover {
     cursor: pointer;
 }
 
+/* Modification */
+
+.text-intro, .text-temoin {
+    font-size: 1.5rem;
+}
+
+.text-temoin {
+    font-style: italic;
+}
+
+.tc-orange, .tc-orange-2{
+    color: #c27956;
+}
+
+.tc-orange-2 {
+    padding-bottom: 40px;
+}
+
+/* FIN MODIFICATION */
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -651,7 +671,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -677,7 +697,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.3rem;
 }
 
 .tight-width-whitespace {
@@ -771,15 +791,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ac5c42;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ac5c42;
     color: #FFFFFF!important;
 }
 
