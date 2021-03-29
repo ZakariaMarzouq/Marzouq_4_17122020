@@ -28,10 +28,6 @@ a:hover {
     font-style: italic;
 }
 
-.tc-orange {
-    color: #c27956;
-}
-
 .tc-orange-2 {
     padding-bottom: 50px;
     font-size: 1.8rem;
@@ -325,7 +321,6 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
     display: inline;
 }
 
